@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/badge/Flask-EC4899?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
 <img src="https://img.shields.io/badge/Next.js-3B82F6?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
 <img src="https://img.shields.io/badge/TypeScript-EC4899?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-<img src="https://img.shields.io/badge/React-3B82F6?style=for-the-badge&logo=react&logoColor=white" alt="React">
+<img src="https://img.shields.io/badge/React-3B82F6?style=for-the-badge&logo=react&logoColor=white&cacheSeconds=3600" alt="React">
 <img src="https://img.shields.io/badge/Linux-EC4899?style=for-the-badge&logo=linux&logoColor=white" alt="Linux">
 <img src="https://img.shields.io/badge/Git-3B82F6?style=for-the-badge&logo=git&logoColor=white" alt="Git">
 
