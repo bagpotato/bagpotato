@@ -1,0 +1,17 @@
+<svg width="1000" height="24" viewBox="0 0 1000 24" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="d" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#3b82f6"/>
+      <stop offset="75%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,12 Q25,2 50,12 T100,12 T150,12 T200,12 T250,12 T300,12 T350,12 T400,12 T450,12 T500,12 T550,12 T600,12 T650,12 T700,12 T750,12 T800,12 T850,12 T900,12 T950,12 T1000,12" fill="none" stroke="url(#d)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="14 8">
+    <animate attributeName="stroke-dashoffset" from="0" to="-44" dur="1.6s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="500" cy="12" r="4" fill="#ec4899">
+    <animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#ec4899;#3b82f6;#ec4899" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

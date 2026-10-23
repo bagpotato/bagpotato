@@ -1,0 +1,77 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1028"/>
+      <stop offset="100%" stop-color="#1c0f33"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6">
+        <animate attributeName="stop-color" values="#3b82f6;#ec4899;#3b82f6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ec4899">
+        <animate attributeName="stop-color" values="#ec4899;#3b82f6;#ec4899" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="round"><rect width="1000" height="260" rx="18"/></clipPath>
+    <clipPath id="t1"><rect x="342" y="140" height="40" width="0">
+      <animate attributeName="width" values="0;317;317;0;0" keyTimes="0;0.12;0.30;0.33;1" dur="10s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t2"><rect x="298" y="140" height="40" width="0">
+      <animate attributeName="width" values="0;0;404;404;0;0" keyTimes="0;0.33;0.45;0.63;0.66;1" dur="10s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t3"><rect x="320" y="140" height="40" width="0">
+      <animate attributeName="width" values="0;0;360;360;0" keyTimes="0;0.66;0.78;0.97;1" dur="10s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1000" height="260" fill="url(#bg)"/>
+
+    <circle r="110" fill="#3b82f6" opacity="0.5" filter="url(#blur)" cx="150" cy="60">
+      <animate attributeName="cx" values="150;420;150" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="60;190;60" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="120" fill="#ec4899" opacity="0.42" filter="url(#blur)" cx="850" cy="200">
+      <animate attributeName="cx" values="850;580;850" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="200;60;200" dur="8s" repeatCount="indefinite"/>
+    </circle>
+
+    <g fill="#ffffff">
+      <circle cx="90" cy="40" r="1.8"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="230" cy="95" r="1.4"><animate attributeName="opacity" values="1;0.15;1" dur="3.1s" repeatCount="indefinite"/></circle>
+      <circle cx="330" cy="30" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle cx="560" cy="38" r="1.5"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="690" cy="85" r="1.9"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="800" cy="35" r="1.6"><animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="920" cy="90" r="2"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="40" cy="150" r="1.3"><animate attributeName="opacity" values="1;0.2;1" dur="2.9s" repeatCount="indefinite"/></circle>
+      <circle cx="960" cy="165" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.3s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <text x="500" y="112" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="800" fill="url(#g)" filter="url(#glow)">bagpotato
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="4s" repeatCount="indefinite"/>
+    </text>
+
+    <g font-family="'Courier New', Courier, monospace" font-size="24" fill="#bfdbfe">
+      <text x="342" y="168" textLength="317" lengthAdjust="spacing" clip-path="url(#t1)">Python · Flask · Linux</text>
+      <text x="298" y="168" textLength="404" lengthAdjust="spacing" clip-path="url(#t2)">Next.js · TypeScript · React</text>
+      <text x="320" y="168" textLength="360" lengthAdjust="spacing" clip-path="url(#t3)">Security tools &amp; web apps</text>
+    </g>
+
+    <path d="M0,228 Q125,200 250,228 T500,228 T750,228 T1000,228 T1250,228 T1500,228 T1750,228 T2000,228 V260 H0 Z" fill="#3b82f6" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,238 Q125,214 250,238 T500,238 T750,238 T1000,238 T1250,238 T1500,238 T1750,238 T2000,238 V260 H0 Z" fill="#ec4899" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" from="-500 0" to="0 0" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,248 Q125,232 250,248 T500,248 T750,248 T1000,248 T1250,248 T1500,248 T1750,248 T2000,248 V260 H0 Z" fill="url(#w1)" opacity="0.8">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

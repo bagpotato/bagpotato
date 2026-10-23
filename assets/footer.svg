@@ -1,0 +1,20 @@
+<svg width="1000" height="110" viewBox="0 0 1000 110" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="f" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,40 Q125,10 250,40 T500,40 T750,40 T1000,40 T1250,40 T1500,40 T1750,40 T2000,40 V110 H0 Z" fill="#3b82f6" opacity="0.35">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0,52 Q125,26 250,52 T500,52 T750,52 T1000,52 T1250,52 T1500,52 T1750,52 T2000,52 V110 H0 Z" fill="#ec4899" opacity="0.4">
+    <animateTransform attributeName="transform" type="translate" from="-500 0" to="0 0" dur="6s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0,66 Q125,48 250,66 T500,66 T750,66 T1000,66 T1250,66 T1500,66 T1750,66 T2000,66 V110 H0 Z" fill="url(#f)" opacity="0.85">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <text x="500" y="98" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff" opacity="0.9">thanks for stopping by
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="3s" repeatCount="indefinite"/>
+  </text>
+</svg>
