@@ -3,9 +3,6 @@
   <br />
   <img src="assets/stack.svg" alt="stack" />
   <br />
-  <img src="https://img.shields.io/github/followers/bagpotato?style=for-the-badge&logo=github&label=followers&labelColor=3B82F6&color=EC4899" alt="Followers" />
-  <img src="https://shields.io" alt="Stars" />
-  <br />
   <img src="assets/divider.svg" alt="divider" />
   
   <h2>About me</h2>
