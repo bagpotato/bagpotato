@@ -18,9 +18,7 @@
   <h2>Featured project</h2>
   
   <img src="https://vercel.app" alt="SecNet-Auditor" />
-  
-  <p>Read-only audit suite for Ubuntu/Debian servers: Netplan, DNS, UFW, critical file permissions and SSH brute-force detection, with a local Flask dashboard.</p>
-  
+
   <img src="assets/audit.svg" alt="audit" />
   <br />
   <img src="assets/divider.svg" alt="divider" />
