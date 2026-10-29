@@ -17,7 +17,8 @@
   
   <h2>Featured project</h2>
   
-  <img src="https://vercel.app" alt="SecNet-Auditor" />
+  <!-- CORREGIDO: alt="" vacío para eliminar el texto azul flotante -->
+  <img src="https://vercel.app" alt="" />
 
   <img src="assets/audit.svg" alt="audit" />
   <br />
@@ -26,4 +27,3 @@
   <br />
   <img src="assets/footer.svg" alt="footer" />
 </div>
-
