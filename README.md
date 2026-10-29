@@ -23,7 +23,6 @@
   <br />
   <img src="assets/divider.svg" alt="divider" />
   
-  <br /><br />
   <br />
   <img src="assets/footer.svg" alt="footer" />
 </div>
