@@ -23,12 +23,7 @@
   <br />
   <img src="assets/divider.svg" alt="divider" />
   
-  <h2>GitHub stats</h2>
-  
-  <img src="https://vercel.app" alt="Stats" />
-  <img src="https://vercel.app" alt="Top languages" />
   <br /><br />
-  <img src="https://demolab.com" alt="Streak" />
   <br />
   <img src="assets/footer.svg" alt="footer" />
 </div>
